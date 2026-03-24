@@ -66,23 +66,3 @@ save_dat(os.path.join(BASE_DIR, FILE_NAME), [
     ("W", W),
     ("B", B)
 ])
-
-
-# rng = RandomNumberGenerator(123)
-# n = 4
-# m = 3
-# A = gen_matrix(rng, n, m, 1, 20)
-# save_dat("test.dat", [
-#     ("n", n),
-#     ("m", m),
-#     ("A", A)
-# ])
-
-# rng = RandomNumberGenerator(12)
-# n = 5
-# k = gen_matrix(rng, n, n, 1, 50)
-
-# save_dat("data.dat", [
-#     ("n", n),
-#     ("k", k)
-# ])
